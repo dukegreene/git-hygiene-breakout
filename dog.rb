@@ -1,6 +1,7 @@
 class Dog
   def initialize(args = {})
-    @size = args[:size]
+    @height = args[:height]
     @bark_volume = args[:bark_volume]
   end
 end
+
